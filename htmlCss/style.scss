@@ -1,5 +1,10 @@
+@import 'product';
 $widhtSite:1600px;
 $heightSite: 3828px;
+$background:#222;
+$wordSelection:#F16D7F;
+$textfont: Lato;
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 * {
@@ -22,6 +27,7 @@ img {
 }
 
 .container {
+    align-items: center;
     width:  $widhtSite;
     margin: 0 auto;
 }
@@ -34,14 +40,14 @@ img {
 }
 
 .head__navbar {
-    background-color: #222222;
+    background-color: $background;
     height: 75px;
     display: flex;
     justify-content: space-between;
 }
 
 .head__navbar button {
-    background-color: #222222;
+    background-color: $background;
     border: none;
 }
 
@@ -188,7 +194,7 @@ img {
     font-weight: 900;
     font-size: 48px;
     line-height: 1;
-    color: #222222;
+    color: $background;
 }
 
 span.h2 {
@@ -266,7 +272,7 @@ span.h2pink {
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    color: #222222;
+    color: $background;
 }
 
 .main__title p {
