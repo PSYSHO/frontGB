@@ -307,6 +307,7 @@
 }
 
 .filter-sort {
+  margin-left: 230px;
   display: flex;
   height: 132px;
   position: relative;
@@ -1018,6 +1019,8 @@ span.h2pink {
 }
 
 .all__cards {
+  margin-left: 230px;
+  margin-right: 230px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;

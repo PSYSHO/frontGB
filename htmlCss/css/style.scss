@@ -22,6 +22,7 @@ $gapGrid: 30px;
 }
 
 .filter-sort {
+    margin-left: 230px;
     display: flex;
     height: 132px;
     position: relative;
@@ -229,6 +230,7 @@ $textfont: Lato;
       }
 }
 .all_product_cards{
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
@@ -499,6 +501,7 @@ $textfont: Lato;
 }
 
 body {
+    
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     background: #ffffff;
@@ -770,6 +773,8 @@ span.h2pink {
 }
 
 .all__cards {
+   margin-left: 230px;
+   margin-right: 230px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
