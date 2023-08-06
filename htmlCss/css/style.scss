@@ -10,6 +10,126 @@ $gapGrid: 30px;
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 
+//registration
+.registration{
+    &_container{ 
+        align-content: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__form{
+        margin-left: 230px;
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        &_input{
+            width: 360px;
+            height: 45px;
+            margin-bottom: 20px;
+        }
+        &_heading{
+            margin-top: 64px;
+            margin-bottom: 20px;
+            color: #222;
+            font-family: $textfont;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        &_button{
+            max-width: 167px;
+            padding: 16px 30px;
+            background-color: $wordSelection;
+            color: #fff;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            transition: all 0.3s;
+            margin-bottom: 96px;
+        }
+        &_button::after {
+            content: "\2192";
+            padding-left: 10px;
+        }
+
+        &_button:hover {
+            color: $wordSelection;
+            background-color: #fff;
+            box-shadow: 2px 2px 3px $wordSelection;
+        }
+        &_radio{
+            display: flex;
+            &_btn{
+                width: 17px;
+                height: 17px;
+            }
+        }
+        &_gender{
+            margin-left: 10px;
+            margin-right: 20px;
+            margin-bottom: 35px;
+        }
+        &_description{
+            color: #B1B1B1;
+            font-family: $textfont;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin-bottom: 39px;
+        }
+    }
+    &__bonus{
+        display: flex;
+        flex-direction: column;
+        margin-right: 230px;
+        margin-bottom: 279px;    
+        &_head{
+            color: #000;
+            font-family: $textfont;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin-bottom: 22px;
+        }
+        &_description{
+            color: #000;
+            font-family: $textfont;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin-bottom: 21px;
+        }
+        &_element{
+            color: #000;
+            font-family: $textfont;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+            &_list {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                
+                list-style-type: none;
+            }
+    
+            &_list li::before {
+                content: url(../img/checkmark.svg);
+                // content: "\2713";
+                padding-right: 23px;
+            }
+        }
+
+
+}
+
 //cart
 .cart{ 
     

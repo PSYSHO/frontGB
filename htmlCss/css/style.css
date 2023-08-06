@@ -298,6 +298,117 @@
   margin-left: 230px;
 }
 
+.registration_container {
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+}
+.registration__form {
+  margin-left: 230px;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+.registration__form_input {
+  width: 360px;
+  height: 45px;
+  margin-bottom: 20px;
+}
+.registration__form_heading {
+  margin-top: 64px;
+  margin-bottom: 20px;
+  color: #222;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration__form_button {
+  max-width: 167px;
+  padding: 16px 30px;
+  background-color: #F16D7F;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all 0.3s;
+  margin-bottom: 96px;
+}
+.registration__form_button::after {
+  content: "→";
+  padding-left: 10px;
+}
+.registration__form_button:hover {
+  color: #F16D7F;
+  background-color: #fff;
+  box-shadow: 2px 2px 3px #F16D7F;
+}
+.registration__form_radio {
+  display: flex;
+}
+.registration__form_radio_btn {
+  width: 17px;
+  height: 17px;
+}
+.registration__form_gender {
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 35px;
+}
+.registration__form_description {
+  color: #B1B1B1;
+  font-family: "Lato";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 39px;
+}
+.registration__bonus {
+  display: flex;
+  flex-direction: column;
+  margin-right: 230px;
+  margin-bottom: 279px;
+}
+.registration__bonus_head {
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+.registration__bonus_description {
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 21px;
+}
+.registration__bonus_element {
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration__bonus_list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style-type: none;
+}
+.registration__bonus_list li::before {
+  content: url(../img/checkmark.svg);
+  padding-right: 23px;
+}
+
 .cart__container {
   align-content: center;
   display: flex;
